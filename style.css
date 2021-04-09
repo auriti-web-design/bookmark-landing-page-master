@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@;400;500&display=swap");
+
+:root {
+  --Soft_Blue: hsl(231, 69%, 60%);
+  --Soft_Red: hsl(0, 94%, 66%);
+  --Grayish_Blue: hsl(229, 8%, 60%);
+  --Very_Dark_Blue: hsl(229, 31%, 21%);
+  --fz: 18px;
+  --ff: "Rubik", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: var(--ff);
+  font-size: var(--fz);
+  color: var(--Very_Dark_Blue);
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header > .navbar {
+  margin: auto 10%;
+  padding: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-nav {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navbar-nav .nav-items {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-items > .nav-li {
+  margin: auto 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-li > .nav-link {
+  margin: 0;
+  padding: 1%;
+  color: var(--Very_Dark_Blue);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nav-li.btn-link {
+  padding: 10px 40px;
+  background-color: var(--Soft_Red);
+  border-radius: 6px;
+}
+
+.btn-link a {
+  color: #fff !important;
+}
+
+/* FS SECTION */
+
+.fs-section {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto 10%;
+  padding: 0;
+}
+
+.fs-section > .container > .row {
+  margin: 0;
+  padding: 5% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fs-section > .container > .row > .col-6 {
+  margin: 0px 1em;
+  padding: 0;
+}
+
+.m-title {
+  font-size: 3rem;
+  line-height: 0.85;
+}
+
+.p-con {
+  font-size: 20px;
+  color: var(--Grayish_Blue);
+  line-height: 1.5;
+  letter-spacing: 1;
+}
+
+/* SC SECTION */
+
+.sc-section {
+  text-align: center;
+  padding: 0 25%;
+}
+
+/* TAB SECTION  */
+
+/* FAQ SECTION  */
+/* CONTACT US SECTION */
